@@ -100,3 +100,15 @@
 #
 # largest([1, 2, 3, 4, 0])  # returns 4
 # largest([10, 4, 2, 231, 91, 54])  # returns 231
+
+# Task 3
+
+def occurances(a, b):
+
+	return a.count(b)
+
+
+print(occurances('fleep floop', 'e'))   # returns 2
+print(occurances('fleep floop', 'p'))   # returns 2
+print(occurances('fleep floop', 'ee'))  # returns 1
+print(occurances('fleep floop', 'fe'))  # returns 0
