@@ -36,12 +36,22 @@
 
 # task 4
 
-def multiplication(a,b):
-	my_answer = a*b
-	print("Calculating...")
-	return my_answer
+# def multiplication(a,b):
+# 	my_answer = a*b
+# 	print("Calculating...")
+# 	return my_answer
+#
+# print("Let's Multiply stuff...")
+# answer = multiplication(5,6) # multiply wasn't defined as a function name but multiplication is
+# answer = str(answer)
+# print("The answer is..." + answer)
 
-print("Let's Multiply stuff...")
-answer = multiplication(5,6)
-answer = str(answer)
-print("The answer is..." + answer)
+# task 5
+def subtract (a , b):
+	result = b - a
+	return result
+
+result1 = subtract(2, 8)
+print (result1)
+result2 = subtract(1, -9)
+print (result2)
