@@ -1,3 +1,5 @@
+# Part 1:
+
 # task 1
 # def pokemon_contains(incoming_letter):
 # 	if incoming_letter in "pokemon":
@@ -59,13 +61,31 @@
 
 # task 6
 
-def greater_than_5(a):
-	if a > 5:
-		return True
-	elif a < 5:
-		return False
+# def greater_than_5(a):
+# 	if a > 5:
+# 		return True
+# 	elif a < 5:
+# 		return False
+#
+# Big = greater_than_5(6)
+# print(Big)
+# Small = greater_than_5(1)
+# print(Small)
 
-Big = greater_than_5(6)
-print(Big)
-Small = greater_than_5(1)
-print(Small)
+# Part 2
+
+# Task 1
+
+def sum_to(n):
+
+	best = 0
+	for x in range(n+1):
+
+		best += x
+
+
+	return best
+sum1 = sum_to(6)
+print (sum1)
+sum2 = sum_to(10)
+print (sum2)
