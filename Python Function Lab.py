@@ -76,16 +76,27 @@
 
 # Task 1
 
-def sum_to(n):
+# def sum_to(n):
+#
+# 	best = 0
+# 	for x in range(n+1):
+#
+# 		best += x
+#
+#
+# 	return best
+# sum1 = sum_to(6)
+# print (sum1)
+# sum2 = sum_to(10)
+# print (sum2)
 
-	best = 0
-	for x in range(n+1):
 
-		best += x
-
-
-	return best
-sum1 = sum_to(6)
-print (sum1)
-sum2 = sum_to(10)
-print (sum2)
+# Task 2
+#
+# def largest(a):
+# 		a.sort()
+# 		print("Largest element is:", a[-1])
+#
+#
+# largest([1, 2, 3, 4, 0])  # returns 4
+# largest([10, 4, 2, 231, 91, 54])  # returns 231
