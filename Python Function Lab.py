@@ -26,10 +26,22 @@
 
 # task 3
 
-def multiply(num1 , num2):
-	answer = num1*num2 # a and b were not an argument in the function but num1 and num2 were
-	return answer  #missing return answer
-result5 = multiply( 10 , 10 )
-print(result5)
-result6 = multiply( 5 , 6 )
-print(result6)
+# def multiply(num1 , num2):
+# 	answer = num1*num2 # a and b were not an argument in the function but num1 and num2 were
+# 	return answer  #missing return answer
+# result5 = multiply( 10 , 10 )
+# print(result5)
+# result6 = multiply( 5 , 6 )
+# print(result6)
+
+# task 4
+
+def multiplication(a,b):
+	my_answer = a*b
+	print("Calculating...")
+	return my_answer
+
+print("Let's Multiply stuff...")
+answer = multiplication(5,6)
+answer = str(answer)
+print("The answer is..." + answer)
