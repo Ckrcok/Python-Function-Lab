@@ -47,11 +47,25 @@
 # print("The answer is..." + answer)
 
 # task 5
-def subtract (a , b):
-	result = b - a
-	return result
 
-result1 = subtract(2, 8)
-print (result1)
-result2 = subtract(1, -9)
-print (result2)
+# def subtract (a , b):
+# 	result = b - a
+# 	return result
+#
+# result1 = subtract(2, 8)
+# print (result1)
+# result2 = subtract(1, -9)
+# print (result2)
+
+# task 6
+
+def greater_than_5(a):
+	if a > 5:
+		return True
+	elif a < 5:
+		return False
+
+Big = greater_than_5(6)
+print(Big)
+Small = greater_than_5(1)
+print(Small)
